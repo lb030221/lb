@@ -3,6 +3,7 @@ package com.lb.pojo;
 public class Car {
     private String name;
     private Double price;
+    private Integer id;
 
     public String getName() {
         return name;
@@ -18,5 +19,13 @@ public class Car {
 
     public void setPrice(Double price) {
         this.price = price;
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
     }
 }
